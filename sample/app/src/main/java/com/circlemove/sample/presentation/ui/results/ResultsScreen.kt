@@ -25,7 +25,7 @@ import com.circlemove.sample.presentation.ui.buyticket.BuyTicketViewModel
 @Composable
 fun ResultsScreen(navController: NavHostController) {
 
-    val viewModel: BuyTicketViewModel = hiltViewModel()
+    val viewModel: ResultViewModel = hiltViewModel()
     val model by viewModel.modelFlow.collectAsState()
 
     Column(

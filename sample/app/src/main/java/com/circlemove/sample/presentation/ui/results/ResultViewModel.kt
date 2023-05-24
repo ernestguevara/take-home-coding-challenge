@@ -9,5 +9,7 @@ import javax.inject.Inject
 class ResultViewModel @Inject constructor(
     private val repository: SampleRepository,
 ) : ViewModel() {
+    private val _modelFlow = repository.modelFlow
+    val modelFlow = _modelFlow
 
 }
