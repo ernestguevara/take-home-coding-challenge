@@ -47,8 +47,10 @@ App launch & splash
 
 When user launches app, app shows a full-screen splash page.
 
-![](images/figure1-splash.jpg)
 
+| Requirements                | Presented                   |
+| --------------------------- | --------------------------- |
+| <img src="images/figure1-splash.jpg" width="300"> | <img src="images/figure1_splash.png" width="300"> |
 
 After 3 seconds, app navigates to menu page automatically.
 
@@ -62,11 +64,15 @@ Besides, he/she sees three (3) options.
 
 Among these options, only Buy Ticket is working.
 
-![](images/figure2-menu.jpg)
+| Requirements                | Presented                   |
+| --------------------------- | --------------------------- |
+| <img src="images/figure2-menu.jpg" width="300"> | <img src="images/figure2_menu.png" width="300"> |
 
 When user clicks Buy Load or Send Money, app just says:
 
-![](images/figure3-coming-soon.jpg)
+| Requirements                | Presented                   |
+| --------------------------- | --------------------------- |
+| <img src="images/figure3-coming-soon.jpg" width="300"> | <img src="images/figure2_menu_note.png" width="300"> |
 
 When user clicks Buy Ticket, app navigates to Buy Ticket page.
 
@@ -78,7 +84,11 @@ For this task, just store the mock value in memory.
 When buying a ticket, user must specify which bus stop to board at and
 which bus stop to alight at before proceeding with the purchase.
 
-![](images/figure4-buy-ticket.jpg)
+| Requirements                | Presented                   |
+| --------------------------- | --------------------------- |
+| <img src="images/figure4-buy-ticket.jpg" width="300"> | <div align="center"> <img src="images/figure3_buy.png" width="300"> <img src="images/figure3_buy_error.png" width="300"> <img src="images/figure3_buy_selection.png" width="300"> </div> |
+
+
 
 When user clicks Continue, app navigates to Confirm Ticket page.
 When user clicks navigation icon (Back), app navigates to menu page.
@@ -106,7 +116,9 @@ Use the last bus stop as the initial bus stop to alight at.
 In this page, user sees the bus stop to board at and bus stop to alight at
 together with the fare to pay for the ticket.
 
-![](images/figure5-confirm-ticket.jpg)
+| Requirements                | Presented                   |
+| --------------------------- | --------------------------- |
+| <img src="images/figure5-confirm-ticket.jpg" width="300"> | <div align="center"> <img src="images/figure4_confirm.png" width="300"> <img src="images/figure4_confirm_unsufficient.png" width="300"> </div> |
 
 When user clicks Pay, app navigates to Done page.
 
@@ -132,7 +144,10 @@ This is the last page of the storyboard.
 Same details are shown in the form of a ticket stub.
 Feel free to use your creativity here.
 
-![](images/figure6-ticket.jpg)
+
+| Requirements                | Presented                   |
+| --------------------------- | --------------------------- |
+| <img src="images/figure6-ticket.jpg" width="300"> | <img src="images/figure5_results.png" width="300"> |
 
 User has no other choice but to click OK.
 When user clicks OK, app navigates back to menu page.
